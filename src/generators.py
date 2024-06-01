@@ -13,7 +13,6 @@ def transaction_info(transaction_descriptions: List[dict]) -> Generator[str, Non
 # Пример использования генератора """transaction_info"""
 
 
-
 transactions_1 = [
     {"id": 1, "description": "Перевод организации"},
     {"id": 2, "description": "Перевод со счета на счет"},
